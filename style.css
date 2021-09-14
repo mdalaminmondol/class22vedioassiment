@@ -1,0 +1,301 @@
+body,h1,h2,h3,h4,h5,h6,p,div{
+    font-family: 'Work Sans', sans-serif;
+}
+img{
+    max-width: 100%;
+}
+/* header part start */
+header .navbar-brand {
+    font-size: 25px;
+    font-weight: 500;
+}
+header span {
+    display: inline-block;
+    background: #647adf;
+    color: white;
+    height: 47px;
+    width: 47px;
+    text-align: center;
+    border-radius: 10px;
+    font-size: 30px;
+    top: 3px;
+    position: relative;
+}
+.menu .nav-link{
+    padding-left: 20px !important;
+    padding-right: 20px!important;
+}
+/* header part end */
+
+/* slider part start */
+.slider-section{
+    background: url(./img/asset\ 12.jpeg) no-repeat center center;
+    padding: 150px 0;
+    position: relative;
+}
+.slider-section::after{
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height:100%;
+    background: rgba(0, 0, 0, 0.6);
+    z-index: -1;
+}
+.slider-caption h4{
+    font-size: 20px;
+}
+.btna{
+    display: block;
+    padding: 8px 40px;
+    font-weight: 500;
+    color: white;
+    background: #5ba533;
+    border:1px solid #5ba533;
+}
+.btna:hover{
+    background: white;
+    color: #647adf;
+}
+/* slider part end */
+
+/* about section part start */
+.about-section{
+    background: #f7f9ff;
+    padding: 70px 0;
+}
+.about-section .about-section-left{
+    margin-top: 120px;
+}
+.about-section .about-section-left h2{
+margin-bottom: 20px;
+font-size: 40px;
+}
+.about-section .about-section-left p{
+    font-size: 20px;
+    color: #23262c;
+    line-height: 2rem;
+}
+/* about section part end */
+
+/* feature section part start */
+
+.feature-itam {
+    height: 300px;
+    box-shadow: 2.5px 4.33px 30px 0 rgba(0, 0, 0, 0.144);
+}
+.feature-section h2{
+    font-size: 50px;
+    font-weight: 400;
+}
+.feature-section p{
+    font-size: 20px;
+    margin-top: 30px;
+    margin-bottom: 70px;
+    color: #767676;
+}
+.fueature-img-left{
+    width: 45%;
+    overflow: hidden;
+    border-radius: 5px 0 0 5px;
+}
+.fueature-content-left{
+    width: 55%;
+    padding: 25px;
+}
+.fueature-img-left img{
+    height: 100%;
+    width: auto !important;
+    max-width: inherit;
+    position: relative;
+    left: -150px;
+}
+.fueature-img-left .a{
+    height: 100%;
+    width: auto !important;
+    max-width: inherit;
+    position: relative;
+    left: -80px;
+}
+.fueature-img-left .al{
+    height: 100%;
+    width: auto !important;
+    max-width: inherit;
+    position: relative;
+    left: 0;
+}
+.fueature-img-left .ala{
+    height: 100%;
+    width: auto !important;
+    max-width: inherit;
+    position: relative;
+    left:-80px;
+}
+.fueature-content-left h4{
+    font-size: 18px;
+}
+.fueature-content-left p{
+    font-size: 15px;
+}
+/* feature section part end */
+
+/* look img part start */
+.look-img{}
+.look-itams{}
+.look-itams a{
+    position: relative;
+    display: block;
+}
+.look-itams a::after{
+    content: "";
+    position:absolute;
+    top: 0;
+    left: 0;
+    height:100%;
+    width: 100%;
+    background: #102fb96e;
+    opacity: 0;
+    visibility: hidden;
+    transition: .4s;
+
+}
+.look-itams:hover a::after{
+    opacity: 1;
+    visibility: visible;
+}
+/* look 7y bimg part end */
+/* priging table part start */
+.price-table {
+    background: #f7f9ff;
+}
+.priging-itams{
+    background: white;
+    padding: 40px;
+    border-radius: 5px;
+}
+.priging-itams h2{}
+.priging-itams h5{}
+.priging-itams ul{
+    list-style: none;
+    margin-left: 0;
+    padding-left: 0;
+    margin-bottom: 45px;
+}
+.priging-itams ul li{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    font-size: 20px;
+    color: #777;
+}
+.priging-itams ul li span{
+    color: #6278df;
+    font-size: 25px;
+    font-weight: 600;
+    width: 40px;
+    display: inline-block;
+}
+
+.priging-itams-button{}
+.priging-itams-button a {
+	color: #6278df;
+	padding: 12px 38px;
+    font-size: 20px;
+    font-weight: 500;
+    border: none;
+    box-shadow: 2.5px 4.33px 30px 0 rgba(0, 0, 0, 0.3);
+}
+.priging-itams-button a:hover{
+    background: #5e74de;
+    color: white;
+}
+/* priging table part end */
+
+/* testimonail part start */
+.testimonial-itams span{
+    font-size: 50px;
+    color: #ddd;
+    }
+.athour-info{
+    width: 220px;
+    margin: auto;
+}
+.athour-info img{
+    width: 80px;
+    margin-right: 20px;
+}
+.useer-detels{
+    position: relative;
+    top: 12px;
+}
+
+/* testimonail part end */
+
+/* our tim part start */
+.our-tim{
+    background: #f7f9ff;
+}
+.our-tim-itam img{
+    width: 100px;
+    height: auto;
+    margin-top: -50px;
+    margin-left: 20px;
+}
+.our-tim-itam{
+    margin-top: 120px;
+}
+.card-body .btans:hover{
+    color: white;
+    background:#465052;
+}
+/* our tim part end */
+
+/* content part start */
+.content-form .card{
+    padding: 40px;
+}
+.content-form .btnsa{
+    font-weight: 500;
+}
+.content-form .btnsa:hover{
+    color: #6880ee;
+    background: white;
+}
+/* content part end */
+
+/* ipon part start */
+.ipon .ipon-itams{
+    width: 600px;
+    margin: auto;
+}
+.ipon .ipon-itams a{
+    padding: 15px 30px;
+    font-size: 20px;
+    font-weight: 500;
+    margin-left: 10px;
+    margin-right: 10px;
+    border: 1px solid #5ba533;
+    color: #5ba533;
+}
+.ipon .ipon-itams a:hover{
+    color: white;
+    background: #5ba533;
+}
+.ipon .ipon-itams .buton{
+    color: white;
+    background:#5ba533 ;
+}
+.ipon .ipon-itams .buton:hover{
+    background: #000000;
+}
+/* ipon part end */
+
+/* footer part start */
+footer{
+    background: #f7f9ff;
+    padding: 25px 0;
+}
+footer p{
+    font-size: 20px;
+}
+/* footer part end */
